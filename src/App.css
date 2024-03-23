@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.QR_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.webp?b=1&s=170667a&w=0&k=20&c=d-gHg6uCV5JEaKJCpxhJ01Ab19m032daRC8vDo8NzDI=");
+    margin: 0;
+    padding: 0;
+   background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+  
+  .main {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    background: transparent;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .one {
+    flex: 1;
+  }
+  
+  .two {
+    flex: 1;
+    padding-left: 20px;
+  }
+  
+  input[type="text"],
+  input[type="range"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  input[type="color"]
+  {
+    margin-top: 5px;
+  }
+  
+  button.button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .QR_box {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .QR_box img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .QR_box button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .QR_box button:hover {
+    background-color: #218838;
+  }
+  
+  h5{
+    margin-top: 14px;
+  }
+  #Bar{
+    max-width: 300px;
+    width: 100%;
+  }
